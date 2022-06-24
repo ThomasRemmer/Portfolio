@@ -49,7 +49,10 @@ main {
      display: flex;
      flex-direction: column;
     align-items: center;
-    
+
+    .subheadings {
+        margin-right:auto;
+    }
   }
 
 
@@ -58,7 +61,54 @@ main {
     margin: 1.25rem;
     .gallery__spacer {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+
+        .gallery__title {
+            margin-right: auto;
+        }
      }
 }
 
+
+   .about {
+    display: flex;
+    margin: 1.25rem 1.875rem;
+    flex-direction: column;
+
+    .about__content {
+        
+        
+        margin: 4.063rem 0 0 0;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 160%;
+
+        &--additional {
+            margin: 2rem 0 0 0;
+        }
+    }
+}
+   
+
+.details {
+    display: flex;
+    margin: 1.25rem 1.875rem;
+    flex-direction: column;
+
+
+    .details__collapsible {
+        height: 4.313rem;
+        width: 20.938rem;
+        
+        color: $text-color;
+    }
+}
+ 
+
+.contact {
+    display: flex;
+    margin: 1.25rem 1.875rem;
+    flex-direction: column;
+
+
+}

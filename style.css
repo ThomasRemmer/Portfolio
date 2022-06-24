@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -42,10 +42,51 @@ main {
   flex-direction: column;
   align-items: center;
 }
+main .subheadings {
+  margin-right: auto;
+}
 
-.gallery__spacer {
+.gallery {
+  margin: 1.25rem;
+}
+.gallery .gallery__spacer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+.gallery .gallery__spacer .gallery__title {
+  margin-right: auto;
+}
+
+.about {
+  display: flex;
+  margin: 1.25rem 1.875rem;
+  flex-direction: column;
+}
+.about .about__content {
+  margin: 4.063rem 0 0 0;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 160%;
+}
+.about .about__content--additional {
+  margin: 2rem 0 0 0;
+}
+
+.details {
+  display: flex;
+  margin: 1.25rem 1.875rem;
+  flex-direction: column;
+}
+.details .details__collapsible {
+  height: 4.313rem;
+  width: 20.938rem;
+  color: #ffffff;
+}
+
+.contact {
+  display: flex;
+  margin: 1.25rem 1.875rem;
+  flex-direction: column;
 }
 
 .gallery__title {
@@ -86,23 +127,29 @@ main {
   color: #ffffff;
 }
 
-.gallery {
-  margin: 1.25rem;
+.about__content {
+  font-family: "Inter";
+  color: #ffffff;
+  font-weight: 500;
 }
-.gallery .gallery__spacer {
-  display: flex;
-  justify-content: space-between;
+
+.contact__title {
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 120%;
 }
-.gallery .gallery__button {
+
+.gallery__button {
   color: #ffffff;
   background-color: #3c3636;
 }
-.gallery .gallery__button--round {
+.gallery__button--round {
   width: 45px;
   height: 45px;
   border-radius: 50px;
 }
-.gallery .gallery__button--box {
+.gallery__button--box {
   width: 66px;
   height: 21px;
   font-family: "Inter";
