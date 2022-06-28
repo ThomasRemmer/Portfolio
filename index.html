@@ -10,121 +10,125 @@
   <body>
     <nav class="nav">
       <h2 class="nav__title">Thomas <span class="nav_color">Remmer.</span></h2>
-      <button class="nav__menu"></button>
+      <div class="nav__navigation">
+        <button class="nav__menu">
+          <div class="nav__bar"></div>
+          <div class="nav__bar nav__bar--shorter"></div>
+        </button>
+        <button class="nav__button">About</button>
+        <button class="nav__button">Portfolio</button>
+        <button class="nav__button">Contact</button>
+      </div>
     </nav>
 
     <header class="heading">
-        <h1 class="heading__title">Junior Software Developer.</h1>
-        <div class="heading__divider"></div>
-        <p class="heading__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam
-            laboriosam repellendus quibusdam blanditiis, molestiae corrupti nam rem
-            at necessitatibus omnis explicabo nemo expedita qui error dolorum
-            molestias saepe tempora.
-          </p>
-    
+      <h1 class="heading__title">Junior Software Developer.</h1>
+      <div class="heading__divider"></div>
+      <p class="heading__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam
+        laboriosam repellendus quibusdam blanditiis, molestiae corrupti nam rem
+        at necessitatibus omnis explicabo nemo expedita qui error dolorum
+        molestias saepe tempora.
+      </p>
     </header>
 
     <main>
+      <h2 class="subheadings">PORTFOLIO</h2>
 
-      <h2 class="subheadings">Portfolio.</h2>
-
-      <section class="gallery">
-
-        <img src="https://placebear.com/331/190" alt="image of project 1" class="gallery_img">
-        <div class="gallery__spacer">
-            <h3 class="gallery__title">Project 1</h3>
+      <div class="container">
+        <section class="gallery">
+          <img
+            src="https://placebear.com/331/190"
+            alt="image of project 1"
+            class="gallery_img"
+          />
+          <div class="gallery__spacer">
+            <h3 class="gallery__title">PROJECT 1</h3>
             <button class="gallery__button gallery__button--round"></button>
             <button class="gallery__button gallery__button--round"></button>
-        </div>
-
-            <button class="gallery__button gallery__button--box">react</button>
-            <button class="gallery__button gallery__button--box">SCSS</button>
-
-      </section>
-
-      <section class="gallery">
-
-        <img src="https://placebear.com/331/190" alt="image of project 2" class="gallery_img">
-        <div class="gallery__spacer">
-            <h3 class="gallery__title">Project 2</h3>
+          </div>
+          <div class="gallery__divider"></div>
+          <button class="gallery__button gallery__button--box">react</button>
+          <button class="gallery__button gallery__button--box">SCSS</button>
+        </section>
+        <section class="gallery">
+          <img
+            src="https://placebear.com/331/190"
+            alt="image of project 2"
+            class="gallery_img"
+          />
+          <div class="gallery__spacer">
+            <h3 class="gallery__title">PROJECT 2</h3>
             <button class="gallery__button gallery__button--round"></button>
             <button class="gallery__button gallery__button--round"></button>
-        </div>
-
-            <button class="gallery__button gallery__button--box">react</button>
-            <button class="gallery__button gallery__button--box">SCSS</button>
-
-      </section>
-
-      <section class="gallery">
-
-        <img src="https://placebear.com/331/190" alt="image of project 3" class="gallery_img">
-        <div class="gallery__spacer">
-            <h3 class="gallery__title">Project 3</h3>
+          </div>
+          <div class="gallery__divider"></div>
+          <button class="gallery__button gallery__button--box">react</button>
+          <button class="gallery__button gallery__button--box">SCSS</button>
+        </section>
+        <section class="gallery">
+          <img
+            src="https://placebear.com/331/190"
+            alt="image of project 3"
+            class="gallery_img"
+          />
+          <div class="gallery__spacer">
+            <h3 class="gallery__title">PROJECT 3</h3>
             <button class="gallery__button gallery__button--round"></button>
             <button class="gallery__button gallery__button--round"></button>
-        </div>
+          </div>
+          <div class="gallery__divider"></div>
+          <button class="gallery__button gallery__button--box">react</button>
+          <button class="gallery__button gallery__button--box">SCSS</button>
+        </section>
+      </div>
 
-            <button class="gallery__button gallery__button--box">react</button>
-            <button class="gallery__button gallery__button--box">SCSS</button>
-
-      </section>
-
-      <h2 class="subheadings">About.</h2>
-
+      <h2 class="subheadings">ABOUT.</h2>
       <section class="about">
-        <img src="https://placebear.com/329/401" alt="Image of me" class="about_img">
+        <img
+          src="https://placebear.com/329/401"
+          alt="Image of me"
+          class="about_img"
+        />
         <p class="about__content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam
-          laboriosam repellendus quibusdam blanditiis, molestiae corrupti nam rem
-          at necessitatibus omnis explicabo nemo expedita qui error dolorum
-          molestias saepe tempora.
-
-        </p>
-        <p class="about__content about__content--additional">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam
-          laboriosam repellendus quibusdam blanditiis, molestiae corrupti nam rem
-          at necessitatibus omnis explicabo nemo expedita qui error dolorum
-          molestias saepe tempora.
-
+          laboriosam repellendus quibusdam blanditiis, molestiae corrupti nam
+          rem at necessitatibus omnis explicabo nemo expedita qui error dolorum
+          molestias saepe tempora. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Sit magnam laboriosam repellendus quibusdam
+          blanditiis, molestiae corrupti nam rem at necessitatibus omnis
+          explicabo nemo expedita qui error dolorum molestias saepe tempora.
         </p>
       </section>
 
+      <div class="temp">
+        <section class="details">
+          <h2 class="subheadings">EXPERIENCE.</h2>
+          <button class="details__collapsible">
+            Trainee Software Developer @ Nology
+          </button>
+          <button class="details__collapsible">Another Job Role</button>
+          <button class="details__collapsible">Yet Another job</button>
+        </section>
 
-      <h2 class="subheadings">Experience.</h2>
-
-      <section class="details">
-
-        <button class="details__collapsible">Trainee Software Developer @ Nology</button>
-        <button class="details__collapsible">Another Job Role</button>
-        <button class="details__collapsible">Yet Another job</button>
-
-      </section>
-
-      <h2 class="subheadings">Interests.</h2>
-
-      <section class="details">
-
-        <button class="details__collapsible">Painting</button>
-        <button class="details__collapsible">3d Modeling</button>
-        <button class="details__collapsible">Art</button>
-
-      </section >
-     
-
+        <section class="details">
+          <h2 class="subheadings">INTERESTS.</h2>
+          <button class="details__collapsible">Painting</button>
+          <button class="details__collapsible">3d Modeling</button>
+          <button class="details__collapsible">Art</button>
+        </section>
+      </div>
 
       <section class="contact">
-
         <h1 class="contact__title">Get in Touch.</h1>
 
-        <button class="contact __button">Contact</button>
-
+        <button class="contact__button">Contact</button>
       </section>
-
-
+      <footer class="footer">
+        <button class="footer__button"></button>
+        <button class="footer__button"></button>
+        <button class="footer__button"></button>
+      </footer>
     </main>
-
-
   </body>
 </html>

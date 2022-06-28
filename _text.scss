@@ -13,7 +13,7 @@
 .heading__title {
     font-size: 5rem;
     color: $text-color;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 120%;
 
 }
@@ -55,5 +55,28 @@
     color: $text-color;
     font-weight: 400;
     line-height: 120%;
+    text-align: center;
+
+}
+
+.details__collapsible {
+    font-family: $title-font;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px){ 
+    
+    
+    .nav{
+        .nav__title {
+            font-size: 4rem;
+        }
+
+    }
+
+    .heading__title {
+
+        font-size: 8rem;
+    }
 
 }

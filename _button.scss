@@ -4,7 +4,9 @@
         
     color: $text-color;
     background-color: $infill-color;
-    
+    border: none;
+    margin-left: 5px;
+
     &--round {
         width: 45px;
         height: 45px;
@@ -17,4 +19,44 @@
         font-family: $text-font
 
     }
+}
+
+.footer__button {
+
+    color: $text-color;
+    background-color: #453F3F;
+    width: 45px; 
+    height: 45px;
+    border-radius: 50px;
+    margin: 10.5px;
+    border: none;
+    
+        
+}
+
+.contact__button {
+
+    height: 79px;
+    width: 272px;
+    color: $text-color;
+    font-family: $text-font;
+    font-size: 1.125rem;
+    border: 1px solid $secondary-color;
+    margin-top: 62px;
+    margin-bottom: 88px;
+}
+
+.nav__menu {
+
+    width: 1.563rem;
+    height: 0.563rem;
+    border: none;
+
+}
+
+.nav__button {
+    border: none;
+    color: $text-color;
+    font-family: $text-font;
+    font-size: 1.25rem;
 }
