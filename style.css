@@ -8,7 +8,7 @@
 
 .nav {
   display: flex;
-  margin: 1.25rem 1.875rem;
+  margin: 5% 5%;
   justify-content: space-between;
 }
 .nav .nav__title {
@@ -35,7 +35,7 @@
 
 .heading {
   display: flex;
-  margin: 1.25rem 1.875rem;
+  margin: 5%;
   flex-direction: column;
 }
 .heading .heading__divider {
@@ -118,7 +118,7 @@ main .subheadings {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
+  main {
     padding: 5%;
   }
 
