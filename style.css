@@ -71,7 +71,8 @@ main .subheadings {
   margin-bottom: 14px;
   background-color: #d9bea5;
 }
-.gallery .gallery__img {
+
+.gallery__img {
   height: 190px;
   width: 331px;
 }
