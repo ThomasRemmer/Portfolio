@@ -84,6 +84,11 @@ main {
         background-color: $secondary-color;
     }
 
+    .gallery__img{
+        height:190px;
+        width: 331px;
+    }
+
 }
 
 
@@ -143,7 +148,9 @@ main {
     align-items: center;
 
 
+
 }
+
 
 @media only screen and (min-width: 768px){
 
